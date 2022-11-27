@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>watch-apple</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  
+  <style>
+ div.gallery {
+  float: left;
+  width: 120px;
+}
+
+div.gallery:hover {
+  border: 1px solid #fffed5;
+}
+
+div.gallery img {
+  width:50px;
+  height:50px;
+}
+.desc:hover{
+    color: blue;
+}
+.header{
+padding-left: 60px;
+}
+
+footer {
+      background-color: #f5f5f7;
+      padding: 40px;
+      height: 1000px;
+      color: #1d1d1f;
+  }
+
+  .logo-footer {
+      width: 50px;
+      margin-bottom: 10px;
+  }
+
+  .txt-copy {
+      margin: 0;
+  }
+
+  .txt-copy a {
+      color: #fff;
+  }
+
+  .txt-copy a:hover {
+      text-decoration: underline;
+  }
+  .footer-container{
+      display: flex;
+  }
+  .footer-list {
+      float: left;
+      width: 30%;
+      margin: 0 auto;
+     
+  }
+
+  .footer-list p a {
+      color: #1d1d1f;
+  }
+
+  .footer-list p a:hover {
+      text-decoration: underline;
+  }
+
+  .clear-footer {
+      clear: left;
+  }
+  .foot-notes ul li{
+      color: gray;
+      height: 2em;
+      margin: 10px 0;
+      text-align: left;
+  }
+  .footer-container, .footer-list-container{
+      width: 70%;
+      margin: 0 auto;
+  }
+body{
+    
+    font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    position: fixed;
+    top:0;
+    height: 52px;
+    width: 100%;
+    color: rgba(255, 253, 253, 0.87);
+    background-color: rgba(0,0,0,0.92);
+    z-index: 10;
+  }
+
+.header-list{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0;
+}
+.header-list li{
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+.header-list li a{
+    text-decoration: none;
+    color: #f5f5f7;
+}
+.search{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:30px;
+    float:right;
+    background-color: rgba(0,0,0,0.92);
+    border-radius:10px;
+}
+
+.col-2{
+flex-basis:50%;
+min-width:300px;
+padding-left: 40px;
+}
+.col-2 img{
+width :430px;
+padding: 20px;
+}
+.col-2 h1{
+font-size:50px;
+line-height:60px;
+margin:35px 5px;
+}
+
+</style>
+</head>
+<body >
+    <header>
+        <div class="header-wrapper">
+            <span class="menu-logo hp-viewport fas fa-ellipsis-h"></span>
+            <ul class="header-list">
+               
+                <li class="header-content hp-viewport apple-header" style="margin-left:100px;margin-right: 0px;"><a href="Apple.html"><img class="logo" style= " width: 30px;"src="https://th.bing.com/th/id/OIP.QukU7GnxTAM5UCY8FaN6oAHaHa?w=192&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7"></a></li>
+               
+                 <li class="header-content hp-viewpor-hide"><a style="margin-left: 10px; "
+                 href="watch-apple.html">Store</a></li>
+                <li class="header-content hp-viewport-hide" style="margin-left:10px;margin-right: 0px;"><a href="mac.html">Mac</a></li>
+                <li class="header-content hp-viewport-hide" style="margin-left: 0px;margin-right: 0px;"><a href="ipad-apple.html">iPad</a></li>
+                <li class="header-content hp-viewport-hide" style="margin-left: 0px;margin-right: 0px;"><a href="iphone-apple.html">iPhone</a></li>
+                <li class="header-content hp-viewport-hide" style="margin-left: 0px;margin-right: 0px;"><a href="watch-apple.html">Watch</a></li>
+                <li class="header-content hp-viewport-hide" style="margin-left: 0px; width: 60px ;margin-right: 0px;"><a href="Tv-apple.html">TV & Home</a></li>
+                <li class="header-content hp-viewport-hide" style="margin-left:0px;margin-right: 30px;"><a href="https://www.apple.com/shop/accessories/all">Accessories</a></li>
+                <li class="header-content hp-viewport-hide" style="margin-left: 0px;margin-right: 0px;"><a href="https://support.apple.com/">Support</a></li>
+            
+                <li class="header-content hp-viewport-hide fa-searchs"><a href="#" class="fas fa-search"></a></li>
+                <input class="search" placeholder="search" type="search" name="">
+            
+                 <li class="header-content hp-viewport apple-header" style="margin-left:100px;margin-right: 0px;"><a href="Apple.html"><img class="logo" style= " width: 30px;"src="https://game-icons.net/icons/ffffff/000000/1x1/delapouite/shopping-cart.png"></a></li>
+            </ul>
+
+        </div>
+    
+    </header>
+    
+<div class = "container1">
+    <div class="container" style="padding-bottom: 10px; ">
+
+       <div class="gallery" style=" padding-left: 5px; margin-left: 5px; margin-top: 70px;  margin-bottom: 0px;">
+         <a target="_blank"  href="#">
+         <img src="https://thumbs.dreamstime.com/b/e-mail-blank-template-internet-mail-e-mail-window-vector-illustration-eps-e-mail-blank-template-internet-mail-e-mail-window-vector-165009606.jpg" class="img1">
+         </a>
+          <div class="desc">Apple Watch ultra </div>
+         <p id= "new" style="color:orange;">New</p>
+      </div>
+
+       <div class="gallery" style ="margin-top: 70px;">
+         <a target="_blank" href="#">
+           <img src="https://th.bing.com/th?id=OPA.R%2f3qM3mY8UCgkg474C474&w=160&h=220&rs=1&o=5&dpr=1.5&pid=21.1" class="img1" alt="eyeware">
+         </a>
+         <div class="desc">Apple Watch Series 8</div>
+         <p id= "new" style="color:orange;">New</p>
+       </div>
+
+      <div class="gallery" style ="margin-top: 70px;">
+        <a target="_blank" href="#">
+          <img src="https://th.bing.com/th?id=OPA.5N4igk4Uxy%2b0Ww474C474&w=160&h=220&rs=1&o=5&dpr=1.5&pid=21.1" class="img1" alt="watches">
+        </a>
+          <div class="desc">Watch SE</div>
+     </div>
+
+     <div class="gallery" style ="margin-top: 70px;">
+       <a target="_blank" href="#">
+         <img src="https://th.bing.com/th?q=Apple+Watch+SE+Nike&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=strict&t=1&mw=247" class="img1" alt="jewellary">
+       </a>
+       <div class="desc">Apple Watch Nike</div>
+     </div>
+
+
+     <div class="gallery" style ="margin-top: 70px;">
+       <a target="_blank" href="#">
+         <img src="https://th.bing.com/th/id/OIP.gMtWS8OWrjghHbx8aIMQMgHaEc?pid=ImgDet&w=533&h=320&rs=1" class="img1" alt="handbags">
+       </a>
+       <div class="desc">Apple watch Hermes</div>
+     </div>
+
+
+      <div class="gallery" style ="margin-top: 70px;">
+        <a target="_blank" href="#">
+          <img src="https://tabliczni.pl/wp-content/uploads/2019/09/Apple-Watch-Studio.jpg" class="img1" alt="handbags">
+        </a>
+        <div class="desc">Apple Watch Studio</div>
+      </div>
+
+      <div class="gallery" style ="margin-top: 70px; ">
+        <a target="_blank" href="#">
+          <img src="https://th.bing.com/th?q=Apple+SE+Watch+Bands&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=strict&t=1&mw=247" class="img1" alt="handbags">
+        </a>
+        <div class="desc">Bands</div>
+      </div>
+
+       <div class="gallery" style ="margin-top: 70px;">
+        <a target="_blank" href="#">
+          <img src="https://th.bing.com/th/id/OIP.PPdeyk_xc4cWEL7iePucNgAAAA?w=199&h=198&c=7&r=0&o=5&dpr=1.5&pid=1.7" class="img1" alt="handbags">
+        </a>
+        <div class="desc">Apple Fitness +</div>
+      </div>
+
+      <div class="gallery" style ="margin-top: 70px; ">
+        <a target="_blank" href="#">
+          <img src="https://th.bing.com/th/id/OIP.nBcKhHf01NFjquzOr7C-5AHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" class="img1" alt="handbags">
+        </a>
+        <div class="desc">WatchOS</div>
+      </div>
+ </div>
+</div>
+
+
+<div class="container" style=" margin-left: 20px; margin-top: 200px; margin-bottom:40px; border-color: white;">
+    <div class="card img-fluid" >
+       <img class="card-img-top" src="https://images.frandroid.com/wp-content/uploads/2020/06/watchos-7-apple-watch-1.png" alt="Card image" style="width:100%;height:300px; ">
+       <center><div >
+            <p><img class="card-img-top" src="https://th.bing.com/th/id/OIP.sWSPghjzvfUYfQpqXbo37wHaIo?w=185&h=215&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Card image" style="width:30px;"><b>WATCH<b></p>
+            <h1 style=" font-size: 50px;" ><b>Adventure awaits.<b></h1>
+            <p style="color:gray;">$999</p>
+            <a href="#" class="btn btn-primary">Buy</a>
+           <a href="#" class="learn-more-link">Learn More ></a>
+        </div></center>
+    </div>
+</div>
+
+
+<div class="container" style="background-color: lightgray;border-radius: 20px;padding: 20px; margin-bottom:20px">
+  <p>The Apple Shopping Event is on. Now through November 28 get a $50 Apple Gift Card when you buy an Apple Watch SE.</p>
+  <center><a href="#" class="learn-more-link">Shop Now ></a></center>
+</div>
+
+
+<div class="container" style="margin-top: 50px;border-radius: 10px;border-style: none; background-color:black;">
+  <div class="row">
+    <div class="col-md-6">
+       <img class="" src="https://thinkapple.pl/wp-content/uploads/2021/05/BA18BDFD-1D7A-412D-9BCE-BD855BD575F3-1024x648.jpeg" width="700px">
+    </div>
+    <div class="col-md-6" style="margin-top:50px;">
+    <center><div >
+            <p style="color:white;"><img class="card-img-top" src="https://th.bing.com/th/id/OIP.QukU7GnxTAM5UCY8FaN6oAHaHa?w=192&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Card image" style="width:30px;"><b>WATCH<b></p>
+              <h5 style="color: red">Series 8</h5>
+            <h1 style=" font-size: 50px; background-color: blueviolet; color: white;" ><b>A healthy leap ahead.<b></h1>
+            <p style="color:gray;"> From $399</p>
+            <a href="#" class="btn btn-primary">Buy</a>
+           <a href="#" class="learn-more-link">Learn More ></a>
+      </div></center>
+    </div>
+</div>
+</div>
+
+
+<div class="container" style="margin-top: 50px;border-radius: 10px;">
+  <div class="row">
+    <div class="col-md-6">
+              <img src="https://thegadgetflow.com/wp-content/uploads/2020/09/Apple-Watch-SE-Entry-Level-Smartwatch-04-1200x1125.jpg" width="600px">
+    </div>
+    <div class="col-md-6" style="margin-top:50px;">
+         <center><div >
+            <p ><img class="card-img-top" src="https://th.bing.com/th/id/OIP.QukU7GnxTAM5UCY8FaN6oAHaHa?w=192&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Card image" style="width:30px;"><b>WATCH<b></p>
+              <h5 style="color: red">SE</h5>
+            <h1 style=" font-size: 50px;" ><b>A great deal to love.<b></h1>
+            <p style="color:gray;"> From $449</p>
+            <a href="#" class="btn btn-primary">Buy</a>
+           <a href="#" class="learn-more-link">Learn More ></a>
+          </div></center>
+     </div>
+</div>
+</div>
+
+<div class ="container" style="width: 97%; margin:10px ;margin-left: 50px; margin-right:40px; height: 150px; padding: 50px;">
+  <center> <b> <h1>Which Apple Watch is right for you?</h1></b></center>
+  </div>
+
+
+
+<div class="container" style="margin-top: 50px; ">
+<div class="card-deck">
+<div class="card" style="width:300px;border-radius: 10px;">
+    <img class="card-img-top" src="https://d28i4xct2kl5lp.cloudfront.net/product_images/None_5ab4d27b-db11-41a1-ba6e-7616d0344310.jpg" alt="Card image" style="width:100%; border-style: solid; border-color: gray;">
+    <div class="card-body">
+       <center>
+        <p id= "new" style="color:orange;">New</p>
+     <h4>Apple watch Series 8</h4>
+      <h4 class="card-title" style="color:gray;">From $399</h4>
+      <a href="address.html" class="btn btn-primary">Buy</a>
+      <a href="#" class="learn-more-link">Learn More ></a>
+    </div>
+  </div>
+
+  <div class="card" style="width:300px;border-radius: 10px;">
+    <img class="card-img-top" src="https://www.smartwatchseries.com/wp-content/uploads/2020/09/Apple-Watch-SE-smartwatch-specs.jpg" alt="Card image" style="width:100%; border-style: solid; border-color: gray;">
+    <div class="card-body">
+       <center>
+        <p id= "new" style="color:orange;">New</p>
+     <h4>Apple watch SE</h4>
+      <h4 class="card-title" style="color:gray;">From $249</h4>
+      <a href="address.html" class="btn btn-primary">Buy</a>
+      <a href="#" class="learn-more-link">Learn More ></a>
+    </div>
+  </div>
+
+  <div class="card" style="width:300px;border-radius: 10px;">
+    <img class="card-img-top" src="https://doopshop.sk/wp-content/uploads/2020/04/SPIGEN-ULTRA-HYBRID-APPLE-WATCH-45-40MM-CRYSTAL-CLEAR.jpg" alt="Card image" style="width:100%; border-style: solid; border-color: gray;">
+    <div class="card-body">
+       <center>
+        <p id= "new" style="color:orange;">New</p>
+     <h4>Apple watch Ultra</h4>
+      <h4 class="card-title" style="color:gray;">$799</h4>
+      <a href="address.html" class="btn btn-primary">Buy</a>
+      <a href="#" class="learn-more-link">Learn More ></a>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<div class="container" style="margin-top: 40px;border-radius: 10px;border-style: none; ">
+  <div class="row">
+    <div class="col-md-6" style="margin-top:70px">
+     <center> 
+      <img src="https://www.apple.com/v/tv-home/h/images/overview/hol_apple_logo_familypage__ec34g6qta7u6_large_2x.jpg" width="70px">
+        <h1 style="font-size: 50px;">Give wow.</h1>
+       <a href="#" class="learn-more-link">Shop the holiday Gift Guide ></a></center>
+    </div>
+    <div class="col-md-6">
+       <img class="" src="https://www.apple.com/v/tv-home/h/images/overview/hol_ipad_atv_familypage_banner__fp4n0p735o6e_large_2x.jpg" width="500px">
+    </div>
+</div>
+</div>
+
+
+<div class ="container" style="width: 97%; margin:10px ;margin-left: 50px; margin-right:40px; margin-bottom: 20px;height: 150px; padding: 100px;">
+  <center>  <b><h1 style="font-size: 50px; font-weight: 700;">Every reason to turn your house into a smart home.</h1><b></center>
+  </div>
+
+<div class="container">
+  <div class="card-deck" >
+  <div class="card" style="width:400px; border-radius: 15px ; border-width: 6px;">
+    <div class="card-body">
+      <h2 class="card-title">Easily control your home from anywhere with your favorite devices.</h2>
+      <a href="#" class="learn-more-link">Learn more about the home app ></a>
+    </div>
+    <img class="card-img-bottom" src="https://www.apple.com/v/tv-home/h/images/overview/control_your_home__ftcaw216qjqm_large_2x.jpg" alt="Card image" style="width:100%">
+  </div>
+
+  <div class="card" style="width:400px; border-radius: 15px ; border-width: 6px;">
+    <div class="card-body">
+      <h2 class="card-title">Seamlessly connected entertainment in every room.</h2>
+      <a href="#" class="learn-more-link">Learn more about Homepod mini></a>
+    </div>
+    <img class="card-img-bottom" src="https://www.apple.com/v/tv-home/h/images/overview/seemlessly_connected__fp9rabi8a7u6_large_2x.jpg" alt="Card image" style="width:100%">
+  </div>
+
+  <div class="card" style="width:400px; border-radius: 15px ; border-width: 6px;">
+    <div class="card-body">
+      <h2 class="card-title">Run it all with your voice.</h2>
+      <a href="#" class="learn-more-link" >Learn more about siri ></a>
+    </div>
+    <img class="card-img-bottom" src="https://i.pinimg.com/originals/73/6c/44/736c4461599a52013ed2c086946daab2.jpg" alt="Card image" style="width:100%">
+  </div>
+  
+  </div>
+</div>
+
+ <div class ="container" style="width: 97%; margin:10px ;margin-left: 50px; margin-right:40px; margin-bottom: 50px;height: 150px; padding: 100px;">
+  <center>  <b><h1 style="font-size: 50px; font-weight: 700;">Accessories. Around your home and across your devices.</h1><b>
+   <a href="#" class="learn-more-link">Shop Accessories ></a></center>
+  </div>
+
+<div class="container">
+  <div class="card-deck" >
+  <div class="card" style="width:400px; border-radius: 15px ; border-width: 6px;">
+    <div class="card-body">
+      <h2 class="card-title">Lighting</h2>
+      <p>Put your routine on a timer. Or set the mood with bulbs and switches.</p>
+      <a href="#" class="learn-more-link">Shop lights and Bulbs , Outlets and Switches ></a>
+    </div>
+    <img class="card-img-bottom" src="https://www.apple.com/v/tv-home/h/images/overview/lighting__bwpnaru6q1w2_large_2x.jpg" alt="Card image" style="width:100%">
+  </div>
+
+  <div class="card" style="width:400px; border-radius: 15px ; border-width: 6px;">
+    <div class="card-body">
+      <h2 class="card-title">Security</h2>
+       <p>Keep an eye on what matters most with cameras, doorbells, and more.</p>
+      <a href="#" class="learn-more-link">Shop Camarsa and Sensors ></a>
+    </div>
+    <img class="card-img-bottom" src="https://www.apple.com/v/tv-home/h/images/overview/security__dbctk5zp4gcy_large_2x.jpg" alt="Card image" style="width:100%">
+  </div>
+
+  <div class="card" style="width:400px; border-radius: 15px ; border-width: 6px;">
+    <div class="card-body">
+      <h2 class="card-title">Comfort</h2>
+      <p>      Turn up the heat or keep your cool with temperature controls and fans</p>
+      <a href="#" class="learn-more-link" >Shop Thermostats ></a>
+    </div>
+    <img class="card-img-bottom" src="https://www.apple.com/v/tv-home/h/images/overview/comfort__bnwbuouyz10i_large_2x.jpg" alt="Card image" style="width:100%">
+  </div>
+  
+  </div>
+</div>
+
+
+  </div> 
+<div class="container" style="float: left; margin-left: 20px; margin-bottom:40px; border-style: solid; border-color:blueviolet;">
+    <div class="card img-fluid" >
+       <img class="card-img-top" src="https://www.iphonelife.com/sites/iphonelife.com/files/ipl_applecard2x.jpg" alt="Card image" style="width:100%;height:500px; float: right; margin: 40px">
+       <center><div style="float:left;">
+            <h1 >Get 3% Daily Cash back with Apple Card.</h1>
+            <p >And pay for your new Mac over 12 months,interest‑free when you choose to check out with Apple Card Monthly Installments.* </p>
+           <a href="#" class="learn-more-link">Learn more ></a></center>
+       </div>
+    </div>
+</div>
+
+
+
+<footer>
+        <div class="footer-container">
+            <div class="foot-notes">
+                <ul>
+                    <li>
+                        1. Price includes a $30 AT&T, T-Mobile, Sprint, or Verizon discount. Requires activation with carrier. Monthly pricing: Available to qualified customers and requires 0% APR.
+                    </li>
+
+                    <li>
+                        2. Monthly pricing: Available to qualified customers and requires 0% APR, 24-month installment loan with Citizens One or Apple Card Monthly Installments.
+                    </li>
+
+                    <li>
+                        3. $9.99/month after free trial. No commitment. Plan automatically renews after trial until cancelled.
+                    </li>
+
+                    <li>
+                        4. The Apple One free trial includes only services that you are not currently using through a free trial or a subscription.
+                    <li>
+
+                    <li>
+                        To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with iOS 12.4 or later or iPadOS.
+                    </li>
+
+                    <li>
+                        Available for qualifying applicants in the United States.
+                    </li>
+                   
+                    <li>
+                        Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+                    </li>
+                    <li>
+                        Apple TV+ is $4.99/month after free trial. One subscription per Family Sharing group. Offer good for 3 months after eligible device activation. Plan automatically renews until cancelled. Restrictions and other terms apply.
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <hr style="width: 100%;">
+    <div class="footer-container">
+        <div class="footer-list">
+            <h3>Shop and Learn</h3>
+            <p><a href="https://www.apple.com/mac">Mac</a></p>
+            <p><a href="https://www.apple.com/ipad">iPad</a></p>
+            <p><a href="https://www.apple.com/iphone">iPhone</a></p>
+            <p><a href="https://www.apple.com/watch">Watch</a></p>
+            <p><a href="https://www.apple.com/tv">TV</a></p>
+            <p><a href="https://www.apple.com/music">Music</a></p>
+            <p><a href="https://www.apple.com/airpods">AirPods</a></p>
+            <p><a href="https://www.apple.com/homepod">HomePod</a></p>
+            <p><a href="https://www.apple.com/ipad-touch">iPod touch</a></p>
+            <p><a href="https://www.apple.com/shop/accessories/all">Accessories</a></p>
+            <p><a href="https://www.apple.com/shop/gift-cards">Gift Cards</a></p>
+        </div>
+        <div class="footer-list">
+            <h3>Services</h3>
+            <p><a href="https://www.apple.com/apple-music">Apple Music</a></p>
+            <p><a href="https://www.apple.com/apple-tv-plus">Apple TV+</a></p>
+            <p><a href="https://www.apple.com/apple-fitnes-plus">Apple Fitness+</a></p>
+            <p><a href="https://www.apple.com/apple-news">Apple News+</a></p>
+            <p><a href="https://www.apple.com/apple-arcade">Apple Arcade</a></p>
+            <p><a href="https://www.apple.com/icloud">iCloud</a></p>
+            <p><a href="https://www.apple.com/apple-one">Apple One</a></p>
+            <p><a href="https://www.apple.com/apple-card">Apple Card</a></p>
+            <p><a href="https://www.apple.com/apple-books">Apple Books</a></p>
+            <p><a href="https://www.apple.com/app-store">App Store</a></p>
+        </div>
+        <div class="footer-list">
+            <h3>Apple Store</h3>
+            <p><a href="https://www.apple.com/retail">Find a Store</a></p>
+            <p><a href="https://www.apple.com/shop">Shop Online</a></p>
+            <p><a href="https://www.apple.com/retail/geniusbar">Genius Bar</a></p>
+            <p><a href="https://www.apple.com/today">Today at Apple</a></p>
+            <p><a href="https://www.apple.com/today/camp">Apple Camp</a></p>
+            <p><a href="https://apps.apple.com/app/apple-store/id375380948">Apple Store App</a></p>
+            <p><a href="https://www.apple.com/shop/refurbished">Refurbished and Clearance</a></p>
+            <p><a href="https://www.apple.com/shop/browse/financing">Financing</a></p>
+            <p><a href="https://www.apple.com/shop/trade-in">Apple Trade In</a></p>
+            <p><a href="https://secure4.store.apple.com/shop/signIn/orders?r=SCKFUHKXACXX7DYHYT9JT7JJTAPAXHFKH&s=aHR0cHM6Ly9zZWN1cmU0LnN0b3JlLmFwcGxlLmNvbS9zaG9wL29yZGVyL2xpc3R8MWFvc2MyMzE1ZDYzNTE4MGIwZTg4MWE3YzIwOWJjMTVkMjNlMzI4ZTBkN2Y">Order
+                    Status</a></p>
+            <p><a href="https://www.apple.com/shop/help">Shopping Help</a></p>
+        </div>
+    </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
